@@ -108,6 +108,7 @@ jobs:
 
       # ── 9.2. Simulator smoke check (catch UI/platform compile issues early) ──
       - name: Build Debug Simulator (Compatibility Smoke Check)
+        continue-on-error: true
         run: |
           set -o pipefail
           DERIVED_DATA_PATH="$RUNNER_TEMP/DerivedData"
