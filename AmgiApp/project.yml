@@ -209,21 +209,21 @@ targets:
       - path: Sources/Watch
         type: group
     dependencies:
-      - package: amgi
+      - package: amgi-build
         product: AnkiKit
       - package: AmgiUI
         product: AmgiTheme
       - package: AmgiUI
         product: AmgiUI
-      - package: amgi
+      - package: amgi-build
         product: AnkiServices
-      - package: amgi
+      - package: amgi-build
         product: AnkiClients
-      - package: amgi
+      - package: amgi-build
         product: AnkiSync
-      - package: amgi
+      - package: amgi-build
         product: AnkiBackend
-      - package: amgi
+      - package: amgi-build
         product: AmgiCardWeb
       - package: AmgiFeatures
         product: AmgiAppCore
