@@ -84,7 +84,7 @@ settings:
       ONLY_ACTIVE_ARCH: NO
       ENABLE_TESTABILITY: NO
 packages:
-  AnkiBridge:
+  amgi:
     path: ..
   AmgiUI:
     path: ../AmgiUI

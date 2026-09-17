@@ -62,7 +62,7 @@ let interopSwiftSettings: [SwiftSetting] = [
 ] + leanDiagnosticFlags
 
 let package = Package(
-    name: "AnkiBridge",
+    name: "amgi",
     // Pinned to iOS 18 / macOS 15 because the sibling AmgiReader package
     // depends on hoshidicts, which requires macOS 15+. The app target
     // already deploys iOS 18 so this is a no-op for users.
