@@ -84,7 +84,7 @@ settings:
       ONLY_ACTIVE_ARCH: NO
       ENABLE_TESTABILITY: NO
 packages:
-  amgi:
+  amgi2:
     path: ..
   AmgiUI:
     path: ../AmgiUI
